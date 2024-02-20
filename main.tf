@@ -2,6 +2,7 @@ provider "google" {
   project = var.project
   region  = var.region
 }
+abc
 
 resource "google_compute_network" "cloud_app" {
   name                    = var.network_name
